@@ -27,10 +27,11 @@ public class HW3 extends RestFullBaseUrl {
 
     @Test
     public void hw3(){
+        String url="https://reqres.in/api/unknown/";
 
-        spec.pathParam("first","unknown");
+        Response response  = given(url).get();
+        response.prettyPrint();
 
-        Response response  = given(spec).when().get("{first}");
         response.then().statusCode(200);
 
         JsonPath json = response.jsonPath();

@@ -3,11 +3,8 @@ package day04;
 import base_urls.RestFullBaseUrl;
 import io.restassured.response.Response;
 import org.testng.annotations.Test;
-import pojos.BookingDatesPojo;
-import pojos.BookingPojo;
-import testdata.RestfulTestData;
-
-import java.util.Map;
+import petstore.BookingDatesPojo;
+import petstore.BookingPojo;
 
 import static io.restassured.RestAssured.given;
 import static org.testng.AssertJUnit.assertEquals;

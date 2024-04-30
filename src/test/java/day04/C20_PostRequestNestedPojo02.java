@@ -4,11 +4,9 @@ package day04;
 import base_urls.RestFullBaseUrl;
 import io.restassured.response.Response;
 import org.testng.annotations.Test;
-import pojos.BookingDatesPojo;
-import pojos.BookingPojo;
-import pojos.BookingResponsePojo;
-
-import java.awt.print.Book;
+import petstore.BookingDatesPojo;
+import petstore.BookingPojo;
+import petstore.BookingResponsePojo;
 
 import static io.restassured.RestAssured.given;
 import static org.testng.AssertJUnit.assertEquals;

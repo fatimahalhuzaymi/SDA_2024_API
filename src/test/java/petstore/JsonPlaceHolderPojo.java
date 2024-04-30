@@ -1,4 +1,4 @@
-package pojos;
+package petstore;
 
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;

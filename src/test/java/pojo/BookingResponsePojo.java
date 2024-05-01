@@ -1,4 +1,4 @@
-package petstore;
+package pojo;
 
 public class BookingResponsePojo {
 

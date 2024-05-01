@@ -5,8 +5,8 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import io.restassured.response.Response;
 import org.testng.annotations.Test;
-import petstore.BookingPojo;
-import petstore.BookingResponsePojo;
+import pojo.BookingPojo;
+import pojo.BookingResponsePojo;
 
 import static io.restassured.RestAssured.given;
 import static org.testng.AssertJUnit.assertEquals;

@@ -1,8 +1,16 @@
-package petstore;
+package pojo.petStor;
 
 public class TagsItem{
 	private String name;
 	private Integer id;
+
+	public TagsItem() {
+	}
+
+	public TagsItem(String name, Integer id) {
+		this.name = name;
+		this.id = id;
+	}
 
 	public void setName(String name){
 		this.name = name;
@@ -21,11 +29,12 @@ public class TagsItem{
 	}
 
 	@Override
- 	public String toString(){
-		return 
-			"TagsItem{" + 
-			"name = '" + name + '\'' + 
-			",id = '" + id + '\'' + 
-			"}";
-		}
+	public String toString(){
+		return
+				"TagsItem{" +
+						"name = '" + name + '\'' +
+						",id = '" + id + '\'' +
+						"}";
+	}
 }
+
